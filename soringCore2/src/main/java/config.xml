@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:webflow="http://www.springframework.org/schema/webflow-config"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/webflow-config
+                           http://www.springframework.org/schema/webflow-config/spring-webflow-config-2.3.xsd">
+                           
+                           
+                           
+                           <!--  bean -->
+                           
+                   <bean class="com.springcore.Student" name="student1">
+                   
+                   <property name="studentId" value="22234"/> 
+                   
+           
+                   
+                   <property name="studentName" value="Vrijesh"/>
+                   
+        
+                   
+                 <property name="StudentAddress" value="Phoenix"/>
+                 
+           
+                   
+                   </bean>
+                   
+                   <!--  second bean -->
+                   
+                       <bean class="com.springcore.Student" name="student2">
+                   
+                   <property name="studentId" value="112"/> 
+                   
+           
+                   
+                   <property name="studentName" value="Ram"/>
+                   
+        
+                   
+                 <property name="StudentAddress" value="AZ"/>
+                 
+           
+                   
+                   </bean>
+                           </beans>
+                           
+                           
+                           
